@@ -1,0 +1,22 @@
+cd pyinterp
+source pup-flask-1.1.2-env/bin/activate
+source flask-1.1.2-env/bin/activate
+pip3 install flask
+export FLASK_APP=hello.py       что запускаем
+flask run
+
+pip install flask-wtf           
+Чтобы обрабатывать веб-формы
+
+pip install flask-sqlalchemy     
+SQLAlchemy поддерживает длинный список движков баз данных, включая популярные MySQL, PostgreSQL и SQLite.
+
+pip install flask-migrate
+для миграции базы данных SQLAlchemy
+
+
+
+
+
+
+
